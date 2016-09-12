@@ -33,6 +33,7 @@
             this.toolStripLabelX = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabelY = new System.Windows.Forms.ToolStripLabel();
             this.browserView = new DotNetBrowser.WinForms.WinFormsBrowserView();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +42,8 @@
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripGetElement,
             this.toolStripLabelX,
-            this.toolStripLabelY});
+            this.toolStripLabelY,
+            this.toolStripLabel1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
             this.toolStrip1.Size = new System.Drawing.Size(922, 25);
@@ -51,20 +53,17 @@
             // toolStripGetElement
             // 
             this.toolStripGetElement.Name = "toolStripGetElement";
-            this.toolStripGetElement.Size = new System.Drawing.Size(113, 22);
-            this.toolStripGetElement.Text = "toolStripGetElement";
+            this.toolStripGetElement.Size = new System.Drawing.Size(0, 22);
             // 
             // toolStripLabelX
             // 
             this.toolStripLabelX.Name = "toolStripLabelX";
-            this.toolStripLabelX.Size = new System.Drawing.Size(87, 22);
-            this.toolStripLabelX.Text = "toolStripLabelX";
+            this.toolStripLabelX.Size = new System.Drawing.Size(0, 22);
             // 
             // toolStripLabelY
             // 
             this.toolStripLabelY.Name = "toolStripLabelY";
-            this.toolStripLabelY.Size = new System.Drawing.Size(87, 22);
-            this.toolStripLabelY.Text = "toolStripLabelY";
+            this.toolStripLabelY.Size = new System.Drawing.Size(0, 22);
             // 
             // browserView
             // 
@@ -74,6 +73,12 @@
             this.browserView.Size = new System.Drawing.Size(922, 478);
             this.browserView.TabIndex = 1;
             this.browserView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(384, 22);
+            this.toolStripLabel1.Text = "Right-click the component to obtain information about the DOM node.";
             // 
             // Form1
             // 
@@ -99,6 +104,7 @@
         private DotNetBrowser.WinForms.WinFormsBrowserView browserView;
         private System.Windows.Forms.ToolStripLabel toolStripLabelX;
         private System.Windows.Forms.ToolStripLabel toolStripLabelY;
+        private System.Windows.Forms.ToolStripLabel toolStripLabel1;
     }
 }
 
