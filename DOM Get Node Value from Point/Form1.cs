@@ -22,7 +22,7 @@ namespace DOM_Get_Node_Value_from_Point
            
         }
 
-        private void Form1_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
+        private void browserView_MouseDown(object sender, System.Windows.Forms.MouseEventArgs e)
         {
             //Check for right_click mouse button
             if (e.Button == MouseButtons.Right)

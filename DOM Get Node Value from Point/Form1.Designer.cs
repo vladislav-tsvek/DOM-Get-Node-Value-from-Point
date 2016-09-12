@@ -72,7 +72,7 @@
             this.browserView.Name = "browserView";
             this.browserView.Size = new System.Drawing.Size(922, 478);
             this.browserView.TabIndex = 1;
-            this.browserView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
+            this.browserView.MouseDown += new System.Windows.Forms.MouseEventHandler(this.browserView_MouseDown);
             // 
             // toolStripLabel1
             // 
